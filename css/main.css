@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;}
+.main{width: 100%; height: 3500px; background-color: goldenrod; }
+
+/*主要内容样式*/
+.content{
+    /* 水平居中*/
+    margin: 0 auto;
+    width: 1000px; height: 3000px;padding-top: 400px;
+}
+
+.block{
+    width: 1000px;height: 600px;
+    text-align: center;font-size: 35px;
+}
+
+/*色卡*/
+.color1{background-color: #9ac8e2 ;}
+.color2{background-color: #db7d74 ;}	
+.color3{background-color: #b8a6d9 ;}	
+.color4{background-color: #e799b0 ;}	
+.color5{background-color: #576690 ;}
+
+/*侧边菜单样式*/
+.maid-float{
+    width: 100px; height: 290px;
+    /*固定位置*/
+    position: sticky;
+    position: fixed;
+    display: block;
+    margin-top: 300px;
+}
+
+.button{
+    width: 100px;height: 50px;margin-top: 10px;
+    text-align: center;font-size: 30px;
+    cursor: pointer;
+}
