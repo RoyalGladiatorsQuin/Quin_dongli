@@ -10,32 +10,32 @@ window.onload = function(){
     btn1.onclick = function(){
         window.scrollTo({
             //跳转的目标高度,顶部为0
-            top: 350,
+            top: 1050,
             //跳转时有移动动画效果，不加即瞬间跳转
             behavior:"smooth"
         });
     }
     btn2.onclick = function(){
         window.scrollTo({
-            top: 950,
+            top: 1650,
             behavior:"smooth"
         });
     }
     btn3.onclick = function(){
         window.scrollTo({
-            top: 1550,
+            top: 2250,
             behavior:"smooth"
         });
     }
     btn4.onclick = function(){
         window.scrollTo({
-            top: 2150,
+            top: 2650,
             behavior:"smooth"
         });
     }
     btn5.onclick = function(){
         window.scrollTo({
-            top: 2750,
+            top: 3450,
             behavior:"smooth"
         });
     }
